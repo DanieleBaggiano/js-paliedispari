@@ -4,7 +4,7 @@
  */
 
 function userPal(parola) {
-    const parolaForm = parola.replace().toLowerCase();
+    const parolaForm = parola.toLowerCase();
 
     const parolaInvertita = parola.split('').reverse().join('');
     
